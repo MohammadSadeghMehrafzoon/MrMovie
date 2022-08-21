@@ -1,6 +1,6 @@
 # Android-with-Kotlin-MVVM-Retrofit-RXjava
 
-=>Select the develop branch to get the project
+=>Select the master branch to get the project
 
 This is a sample application that shows how we can use MVVM architecture along with Retrofit 2.0 library and RXjava in our Android application.
 
