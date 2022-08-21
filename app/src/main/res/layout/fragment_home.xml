@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorApp"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/progress"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone">
+
+            </androidx.core.widget.ContentLoadingProgressBar>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linearTrending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="12dp"
+                    android:gravity="center"
+                    android:text="@string/trending"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/sp18">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerTrending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linearTopRated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearTrending"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:text="@string/topRated"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/sp18">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerTopRated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linearNowPlaying"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearTopRated"
+                android:layout_marginTop="-1dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:text="@string/nowPlaying"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/sp18">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerNowPlaying"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp10">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

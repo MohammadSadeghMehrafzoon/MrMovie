@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/drawable/ic_baseline_do_not_disturb_24.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/drawable/ic_place_holder.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/drawable/star.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/activity_movie_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/fragment_movie_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/movie_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/movie_cover.xml" value="0.264" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/layout/row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MrMovie/app/src/main/res/menu/menu_bottom_navigation_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/activity_list_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
